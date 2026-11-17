@@ -60,21 +60,3 @@ copyButton.addEventListener('click', async () => {
     status.textContent = '';
   }, 7000);
 });
-
-if ('IntersectionObserver' in window) {
-  const navLinks = [...document.querySelectorAll('nav a')];
-  const sections = [...document.querySelectorAll('main section[id]')];
-  const visibleSections = new Set();
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) visibleSections.add(entry.target.id);
-      else visibleSections.delete(entry.target.id);
-    });
-    const current = sections.find(section => visibleSections.has(section.id));
-    navLinks.forEach(link => {
-      if (current && link.hash === `#${current.id}`) link.setAttribute('aria-current', 'location');
-      else link.removeAttribute('aria-current');
-    });
-  }, { rootMargin: '-15% 0px -55% 0px', threshold: 0 });
-  sections.forEach(section => observer.observe(section));
-}
