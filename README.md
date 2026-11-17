@@ -47,9 +47,3 @@ The resource bar labels implementation code **Coming soon**. The introductory su
 Sensitivity figures reproduce the six noise-scale and score-update measurements from Table 3 (ResNet-50, ImageNet-1K, one factor varied at a time). Both use the same 55–70% vertical range and highlight the defaults. SVGs include accessible descriptions; PNG exports and the source CSV are downloadable. Regenerate them with `python3 scripts/plot_sensitivity.py` (requires Matplotlib). These figures show sensitivity among tested settings, not ablations that remove either component.
 
 Author links were verified against the authors’ own or institutional pages: [Adarsh Kappiyath](https://kadarsh22.github.io/), [Silpa Vadakkeeveetil Sreelatha](https://vssilpa.github.io/), [Xiatian Zhu’s lab](https://x-up-lab.github.io/), [Yann LeCun](https://yann.lecun.com/), [Lu Yin](https://luuyin.com/), and [Amir Bar](https://www.amirbar.net/). The research-contact address is publicly listed on Adarsh’s homepage.
-
-## Visual style
-
-The page uses a centered academic-paper layout inspired by https://explorative-modeling.github.io/: a blue-accented paper title, linked authors, charcoal resource pills, a TL;DR, alternating white and light-gray sections, readable prose, unboxed figures, and horizontal-rule tables. The implementation is custom; the footer credits the visual reference. Both original videos, the scientific comparisons, all results, downloads, and citation are retained. Training pseudocode is visible directly on the page.
-
-Google Sans and Noto Sans are hosted locally under `assets/fonts/` as Latin variable WOFF2 files (400–700 weights). Both are licensed under SIL OFL 1.1; their license files are included alongside the fonts. Sources: the official Google Fonts CSS API and https://github.com/google/fonts/tree/main/ofl/googlesans and https://github.com/google/fonts/tree/main/ofl/notosans. No external font service is needed to render the page.
