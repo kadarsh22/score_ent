@@ -18,7 +18,7 @@ Open http://127.0.0.1:8000.
 
 ## GitHub Pages
 
-Intended destination: `kadarsh22/sereg.github.io`, with site URL `https://kadarsh22.github.io/sereg.github.io/` once deployed.
+Intended destination: `kadarsh22/score_ent.github.io`, with site URL `https://kadarsh22.github.io/score_ent.github.io/` once deployed.
 
 Push this directory as the repository root on `main`. In repository **Settings → Pages → Build and deployment**, select **GitHub Actions**. The included `.github/workflows/pages.yml` publishes only the website and assets whenever `main` changes. The workflow can also be run manually from **Actions → Deploy project page**.
 
