@@ -39,3 +39,11 @@ Edit `index.html` for text and results, `styles.css` for the design, and `script
 ## Verification
 
 Checked in Chrome at widths of 320, 390, 768, and 1440 pixels, including repository-subpath URLs. Both videos play and seek; keyboard tabs, citation copying, local downloads, paper section anchors, and JavaScript-disabled video access were checked. Automated axe checks reported no WCAG 2 A/AA or 2.1 AA violations in the tested mobile state. This is an automated check, not a full accessibility audit.
+
+## Research-page additions
+
+The resource bar labels implementation code **Coming soon**. The introductory summary emphasizes Gaussian smoothing and parametric score learning. The page includes the paper abstract, a comparison with contrastive regularization, VICReg and SIGReg, and conceptual training pseudocode adapted from Appendix C, Algorithm 1.
+
+Sensitivity figures reproduce the six noise-scale and score-update measurements from Table 3 (ResNet-50, ImageNet-1K, one factor varied at a time). Both use the same 55–70% vertical range and highlight the defaults. SVGs include accessible descriptions; PNG exports and the source CSV are downloadable. Regenerate them with `python3 scripts/plot_sensitivity.py` (requires Matplotlib). These figures show sensitivity among tested settings, not ablations that remove either component.
+
+Author links were verified against the authors’ own or institutional pages: [Adarsh Kappiyath](https://kadarsh22.github.io/), [Silpa Vadakkeeveetil Sreelatha](https://vssilpa.github.io/), [Xiatian Zhu’s lab](https://x-up-lab.github.io/), [Yann LeCun](https://yann.lecun.com/), [Lu Yin](https://luuyin.com/), and [Amir Bar](https://www.amirbar.net/). The research-contact address is publicly listed on Adarsh’s homepage.

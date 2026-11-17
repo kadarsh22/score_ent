@@ -1,0 +1,7 @@
+factor,value,linear_probe_accuracy_percent,is_default,backbone,dataset,protocol,source
+noise_sigma,4.25,62.32,false,ResNet-50,ImageNet-1K,One factor varied at a time; other settings at defaults,https://arxiv.org/html/2611.11379v1#S4.T3
+noise_sigma,4.5,67.92,true,ResNet-50,ImageNet-1K,One factor varied at a time; other settings at defaults,https://arxiv.org/html/2611.11379v1#S4.T3
+noise_sigma,5,65.43,false,ResNet-50,ImageNet-1K,One factor varied at a time; other settings at defaults,https://arxiv.org/html/2611.11379v1#S4.T3
+score_updates,4,63.72,false,ResNet-50,ImageNet-1K,One factor varied at a time; other settings at defaults,https://arxiv.org/html/2611.11379v1#S4.T3
+score_updates,16,67.92,true,ResNet-50,ImageNet-1K,One factor varied at a time; other settings at defaults,https://arxiv.org/html/2611.11379v1#S4.T3
+score_updates,32,58.32,false,ResNet-50,ImageNet-1K,One factor varied at a time; other settings at defaults,https://arxiv.org/html/2611.11379v1#S4.T3

@@ -16,3 +16,66 @@
 .method-figure figcaption a,.result-note a{text-decoration:underline;text-underline-offset:3px}
 
 @media(max-width:700px){.adaptation-note{display:grid;grid-template-columns:49px 1fr}.adaptation-note>a{grid-column:2;margin-left:0;white-space:normal}.adaptation-note>div{min-width:0}}
+
+/* Research resources and the two ingredients behind EBReg. */
+.hero-summary{max-width:790px;margin-inline:auto;line-height:1.75}
+.hero-summary strong{color:var(--ink);font-weight:600}
+.authors a{text-decoration:underline;text-decoration-color:#b6c0d2;text-underline-offset:4px}
+.authors a:hover{color:var(--blue);text-decoration-color:currentColor}
+.button-coming-soon:disabled{color:var(--muted);background:var(--soft);opacity:1;cursor:default;transform:none;border-color:#d7dce7}
+.release-badge{font-size:9px;font-weight:600;padding:2px 6px;background:#e4e9f2;color:#465571;border-radius:3px;white-space:nowrap}
+.abstract-tagline{margin-top:22px}
+.key-ideas{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:38px;margin-top:40px;padding:32px;border:1px solid var(--line);border-radius:8px;background:var(--soft)}
+.key-ideas article+article{border-left:1px solid var(--line);padding-left:38px}
+.key-ideas h3{font-size:21px;margin:14px 0}
+.key-ideas p:not(.eyebrow){font-size:13px;color:var(--muted)}
+.key-ideas a,.training-intro a{display:inline-block;margin-top:14px;font-size:11px;color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.regularizer-comparison,.sensitivity-section{margin-top:48px;padding-top:40px;border-top:1px solid var(--line)}
+.regularizer-comparison h3,.sensitivity-section h3{font-size:27px;margin-top:14px}
+.subsection-copy{font-size:13px;color:var(--muted);max-width:850px;margin:16px 0 24px}
+.comparison-table{table-layout:fixed;white-space:normal;background:#fff}
+.comparison-table th:first-child{width:21%}
+.comparison-table th:last-child{width:21%}
+.comparison-table th,.comparison-table td,.comparison-table thead th:nth-last-child(-n+2){text-align:left;vertical-align:top}
+.comparison-table tbody tr td:nth-last-child(-n+2),.comparison-table thead tr th:nth-last-child(-n+2){text-align:left}
+.comparison-table tbody tr+tr{border-top:1px solid var(--line)}
+.comparison-table .ours th{background:#edf5f4;color:#17665f}
+.table-detail{font-size:10px;font-weight:400;color:var(--muted)}
+.training-details{margin-top:32px;border:1px solid #d7dfea;border-radius:7px;background:white;overflow:hidden}
+.training-details summary{padding:18px 24px;font-size:14px;font-weight:600;cursor:pointer}
+.details-hint{margin-left:18px;color:var(--muted);font-size:11px;font-weight:400}
+.training-intro{border-top:1px solid var(--line);padding:20px 24px 0;font-size:12px;color:var(--muted)}
+.training-details pre{font-size:11px;line-height:1.9}
+.pseudocode-note{font-size:10px;color:var(--muted);padding:0 24px 22px}
+.sensitivity-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.sensitivity-grid figure{min-width:0;border:1px solid var(--line);border-radius:7px;overflow:hidden;background:white}
+.sensitivity-grid h4{font-size:15px;font-weight:600;margin:20px 24px 4px;line-height:1.4}
+.sensitivity-grid img{display:block;width:100%;height:auto}
+.sensitivity-grid figcaption{padding:0 24px 20px;font-size:11px;color:var(--muted)}
+.sensitivity-grid figcaption a{display:block;margin-top:8px;color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.contact-section{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:40px;border-bottom:1px solid var(--line)}
+.contact-section h2{font-size:21px;margin-bottom:10px}
+.contact-section p{font-size:12px;color:var(--muted)}
+.contact-section>a{font-size:13px;color:var(--blue);text-decoration:underline;text-underline-offset:4px;white-space:nowrap}
+@media(max-width:700px){
+  .hero-summary{font-size:14px;max-width:520px}
+  .release-badge{font-size:8px;padding:2px 5px}
+  .abstract-tagline{margin-top:14px}
+  .key-ideas{grid-template-columns:1fr;gap:24px;margin-top:0;padding:22px}
+  .key-ideas article+article{border-left:0;border-top:1px solid var(--line);padding:24px 0 0}
+  .key-ideas h3{font-size:20px}
+  .key-ideas p:not(.eyebrow){font-size:12px}
+  .regularizer-comparison,.sensitivity-section{margin-top:34px;padding-top:28px}
+  .regularizer-comparison h3,.sensitivity-section h3{font-size:24px}
+  .subsection-copy{font-size:12px}
+  .comparison-table{min-width:570px;font-size:12px}
+  .training-details summary{padding:16px;font-size:13px}
+  .details-hint{display:none}
+  .training-intro{padding:16px 16px 0}
+  .training-details pre{font-size:10px;padding:18px 16px}
+  .pseudocode-note{padding:0 16px 18px}
+  .sensitivity-grid{grid-template-columns:1fr;gap:20px}
+  .sensitivity-grid h4{font-size:15px;margin:18px 20px 4px}
+  .sensitivity-grid figcaption{padding:0 20px 18px}
+  .contact-section{flex-direction:column;align-items:flex-start;gap:16px;padding-block:30px}
+}
