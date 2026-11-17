@@ -47,25 +47,3 @@ The resource bar labels implementation code **Coming soon**. The introductory su
 Sensitivity figures reproduce the six noise-scale and score-update measurements from Table 3 (ResNet-50, ImageNet-1K, one factor varied at a time). Both use the same 55–70% vertical range and highlight the defaults. SVGs include accessible descriptions; PNG exports and the source CSV are downloadable. Regenerate them with `python3 scripts/plot_sensitivity.py` (requires Matplotlib). These figures show sensitivity among tested settings, not ablations that remove either component.
 
 Author links were verified against the authors’ own or institutional pages: [Adarsh Kappiyath](https://kadarsh22.github.io/), [Silpa Vadakkeeveetil Sreelatha](https://vssilpa.github.io/), [Xiatian Zhu’s lab](https://x-up-lab.github.io/), [Yann LeCun](https://yann.lecun.com/), [Lu Yin](https://luuyin.com/), and [Amir Bar](https://www.amirbar.net/). The research-contact address is a.kappiyath@surrey.ac.uk, as supplied by the author.
-
-
-## Author and affiliation badges
-
-Author badges link to each author’s homepage and preserve the paper’s affiliation numbers. Institution badges link to official homepages. Photos and logos are served locally; their original image data is preserved and fitted into badges with CSS.
-
-Author photo sources:
-
-- Adarsh Kappiyath: https://kadarsh22.github.io/assets/img/prof_pic.jpg
-- Silpa Vadakkeeveetil Sreelatha: https://vssilpa.github.io/assets/profile-pics/silpa.jpeg
-- Xiatian Zhu: https://x-up-lab.github.io/assets/img/members/xiatian-480.webp
-- Yann LeCun: http://yann.lecun.com/ex/images/ylc-thumb.jpeg
-- Lu Yin: https://luuyin.com/assets/img/prof_pic_uk.jpg
-- Amir Bar: https://pxl01-imperialacuk.terminalfour.net/fit-in/428x572/filters:upscale()/prod01/channel_3/media/imperial-college/faculty-of-engineering/computing/public/website-images/-non-standard-dimensions/Amir-Bar.png (existing WebP thumbnail linked from https://www.imperial.ac.uk/computing/people/academic-staff/)
-
-Institution logo sources:
-
-- University of Surrey: https://www.surrey.ac.uk/favicon.svg?v=v3
-- New York University: https://www.nyu.edu/favicon.ico
-- AMI Labs: https://cdn.prod.website-files.com/6968f95cf64678111b0f9968/6970a7533cac6b6ee8014af0_webclip.png (linked from https://amilabs.xyz/)
-- Shenzhen University of Advanced Technology: https://www.suat-sz.edu.cn/en/images/25/favicon.ico
-- Imperial College London: https://www.imperial.ac.uk/assets/website/images/favicon/favicon.svg
