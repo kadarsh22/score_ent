@@ -1,8 +1,8 @@
-# SEReg project page
+# EBReg project page
 
 Project website for **Self-Supervised Collapse Prevention with Score-Based Entropy Maximization**, arXiv:2611.11379.
 
-The project is branded **SEReg**. The linked paper, original figures, presentation, and video assets retain their original EBReg terminology.
+The project uses **EBReg** (Entropy-Based Regularization), matching the paper, figures, presentation, and videos.
 
 Plain HTML, CSS, and JavaScript; no build tools or runtime dependencies. All videos, posters, paper figures, and downloads are hosted locally. Links work under a GitHub Pages repository subpath.
 
