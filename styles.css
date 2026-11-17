@@ -81,3 +81,7 @@
 }
 
 .site-footer{justify-content:flex-end}
+
+.slides-download{margin-top:14px;font-size:11px;color:var(--muted)}
+.slides-download a{text-decoration:underline;text-underline-offset:3px}
+.slides-download a:hover{color:var(--blue)}

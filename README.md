@@ -30,7 +30,7 @@ If you change the repository name or domain, update the canonical URL and Open G
 - `assets/images/method.png`: Figure 2 from the paper, https://arxiv.org/html/2611.11379v1/ebreg_block_diagram.png. Paper attribution: Adarsh Kappiyath, Silpa Vadakkeeveetil Sreelatha, Xiatian Zhu, Yann LeCun, Lu Yin, and Amir Bar. The paper is licensed CC BY 4.0: https://creativecommons.org/licenses/by/4.0/.
 - Videos extracted from the supplied `EntropyBasedRegularization-EBREG.pptx`: `ppt/media/media1.mp4` (slide 7, 25 seconds) and `ppt/media/media2.mp4` (slide 25, 60 seconds). Both contain silent H.264 video. Their encoded streams are preserved, with MP4 metadata moved to the beginning for web playback.
 - Posters are frames at 23 and 55 seconds, respectively, from those original animations. Both videos include text descriptions on the page and native playback controls; neither autoplays.
-- The complete supplied presentation and paper are downloadable under `assets/downloads/`.
+- The Slides button opens `assets/downloads/EBReg-presentation.pdf` in a new browser tab. This static preview is exported from the original PowerPoint with LibreOffice; embedded videos are represented by still images and remain playable on the project page. A separate link downloads the original `.pptx`. The paper is also downloadable under `assets/downloads/`.
 - Results reproduce matched comparisons from Table 2 and all-corruption means from Table 5. The page distinguishes percentage-point gains from relative gains.
 - The site does not claim that the illustrative animations are measured results or that implementation code has been released.
 
